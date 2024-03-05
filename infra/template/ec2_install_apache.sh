@@ -4,7 +4,7 @@ cd /home/ubuntu
 yes | sudo apt update
 yes | sudo apt install python3 python3-pip
 git clone https://github.com/kiranbakale/Python-MySQL-DB.git
-sleep 20
+sleep 22
 # shellcheck disable=SC2164
 cd Python-MySQL-DB
 pip3 install -r requirements.txt
